@@ -1,0 +1,26 @@
+cd /c/Users/Артём/Desktop/myrep/group_33/GitHub/json   #Переход в рабочую папку
+git clone https://github.com/uqwecgt/JSON.git   #Клонировать репозиторий JSON на локальный компьютер.
+touch new.json   #Внутри локального JSON создать файл “new.json”.
+ls -la   #Проверил, что файл находится в корректной директории
+git add new.json   #Добавить файл под гит.
+git status #проверил неотслеживаемые файлы
+git commit -m "new.json" #cделал коммит файла
+git push #отправил файл на вшений репозиторий
+vim new.json #отредактировал содержимое файла new.json
+git status #проверил статус файла после подификации
+git add new.json #Добавил файл под гит
+git commit -m "Added personal information" #сделал коммит файла
+git push #отправил файл на внешний репозиторий
+touch preferences.json # Создать файл preferences.json
+vim preferences.json #В редакторе добавил информацию о своих предпочтениях в json формате
+touch skills.json # Создал файл skills.json
+vim skills.json   #В Редакторе добавил информацию о программе курса
+git status #Проверил статус добавленных файлов
+git add . # Добавил 2 новых файла под гит
+git commit -am "added new files" # Закоммитил 2 новых файла
+git push #Отправил 2 новых файла на внешний репозиторий
+#В веб интерфейсе GitHub добавил новый файл bug_report.json и внес в него баг-репорт
+#Cделал коммит нового файла bug_report.json
+git pull #Синхронизировал в GitBash внешний и локальный репозиторий JSON
+ls -la #Проверил наличие нового файла на локальном репозитории
+
