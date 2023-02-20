@@ -1,1 +1,10 @@
-
+{
+  "id": 1,
+  "Status": "New",
+  "Priority": "High",
+  "Environment": "Windows 10, Google Chrome 110.0.5481.104",
+  "Summary": "Login: Error message in the login form are displayed in English",
+  "Steps_to_reprodce": "1.Open site https://www.mysite.org/login; 2.Follow 'Inloggen' link; 3.Fill required fields with invalid data; 4.Click 'Inloggen' button; 5.Pay attention to error messages;",
+  "Actual_result": "Error messages in the login form are displayed in English",
+  "Expected_result": "Error messages in the login form are displayed in the chosen language"
+}
