@@ -1,0 +1,41 @@
+{
+	"leads": [
+			{
+				"name_lead": "Vadim Ksendzov",
+				"courses": "Course Of Software Testing": [
+					{
+						"price_USD": 195,
+		       				"period_month": 4,
+		       				"skills": [							
+			       					"Teory",
+			       					"Client server architecture",
+			       					"What is HTTP",
+			       					"HTTP requests",
+			       					"HTTP structure",
+			       					"What is JSON, XML, their srcuture",
+			       					"Testing API, postman",
+			       					"Work with log-files",
+			       					"Charles, Fiddler sniffers",
+			       					"DevTools",
+			       					"What is VPN",
+			       					"Mobile testing",
+			       					"IOS, Android differences",
+			       					"XCode",
+			       					"Android Studio",
+			       					"ADB",
+			       					"Working with proxy and VPN on Android and IOS",
+			       					"Sniffers",
+			       					"Terminal",
+			       					"bash - scripting",
+			       					"What is remote server",
+			       					"SQL",
+			       					"Postgres",
+			       					"Redis",
+			       					"Load Testing with Jmeter",
+			       					"Scrum SDLC",
+			       					"Python"
+						]
+					}
+				]
+			}
+	]
